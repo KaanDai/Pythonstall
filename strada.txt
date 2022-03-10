@@ -1,0 +1,17 @@
+Setting kernel + pip directory:
+--install anaconda
+--open anaconda prompt
+--follow commands:
+	#following codes help you to create right path for your kernel.
+	#arranges your python.exe as your main version and builds everything upon this
+	#version.
+	-python -m pip install ipykernel
+	-python -m ipykernel install --user
+	#go to the path of kernel and check if the path in the kernel.json file is correct
+	#also you can check it inside the python
+	#import sys ----- sys.executable should be your main python.exe
+	#install library from anaconda prompt and check if the lib installation directory
+	#is correct.
+	pip install django
+	pip show django
+	#directory main address must be equal with the python.exe address 
