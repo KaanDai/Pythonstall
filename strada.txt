@@ -15,3 +15,5 @@ Setting kernel + pip directory:
 	pip install django
 	pip show django
 	#directory main address must be equal with the python.exe address 
+	
+#Problem: if jupyter crashes search which library causes this problem after that if you can't install (or uppgrade to a specific version) library for your setup build by #anaconda, pip install it to users/../appdata and copy in it to your libsites on anaconda3/....
